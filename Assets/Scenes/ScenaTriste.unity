@@ -452,9 +452,10 @@ GameObject:
   - component: {fileID: 328266612}
   - component: {fileID: 328266614}
   - component: {fileID: 328266613}
+  - component: {fileID: 328266615}
   m_Layer: 8
   m_Name: LamparaTriste
-  m_TagString: Untagged
+  m_TagString: Lamp
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -559,6 +560,19 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &328266615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 328266611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7efefa9b76edbe4c858661e8599c7e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distanciaInteraccion: 15
 --- !u!1001 &331732496
 PrefabInstance:
   m_ObjectHideFlags: 0
